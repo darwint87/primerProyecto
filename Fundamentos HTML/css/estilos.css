@@ -1,0 +1,37 @@
+body
+{
+	background-color: gray;
+}
+footer
+{
+	margin-top: 20px;
+}
+img
+{
+	border-radius: 10px;
+}
+#infoPersonal
+{
+
+}
+#contenedor{
+	font-family: helvetica;
+	font-size: 16px;
+}
+#encabezado{
+	display: block;
+	margin: 0 auto;
+}
+a[href$='.html']{
+	color: red;
+}
+img[src$='.svg']{
+	border-radius: 50px;
+}
+img[src$='jpg'],img[src$='png']{
+	border: 1px solid black;
+	border-radius: 5px;
+}
+*{
+	margin: 1vh 1vw;
+}
