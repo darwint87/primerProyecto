@@ -21,6 +21,7 @@ nav{
 		display: none;
 	}
 
+
 }
 @media (min-width: 577px){
 	#prueba{
@@ -36,7 +37,9 @@ right: 5px;
 #contRed{
 	text-align: right;
 }
-
+#buscador a:visited, a:active{
+	text-decoration: none;
+}
 #navegacion{
 	height: 100%;
 	background-color: #4d4dff;
@@ -59,8 +62,3 @@ right: 5px;
 #contenido{
 	background-color: white;
 }
-
-.gi-2x{font-size: 2em;}
-.gi-3x{font-size: 3em;}
-.gi-4x{font-size: 4em;}
-.gi-5x{font-size: 5em;}
