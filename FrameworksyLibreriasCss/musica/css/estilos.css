@@ -12,10 +12,23 @@ nav{
 	border-radius: 5px 5px 5px 5px;
 
 }
-footer{
+@media (max-width: 576px){
+	#prueba{
 
-	background-color: #668cff;
-	border-radius: 5px 5px;
+		text-align: center;
+	}
+	#buscador{
+		display: none;
+	}
+
+}
+@media (min-width: 577px){
+	#prueba{
+
+		text-align: right;
+	}
+
+
 }
 #redes {
 right: 5px;
@@ -23,11 +36,7 @@ right: 5px;
 #contRed{
 	text-align: right;
 }
-#prueba {
-	align-items: right;
-	background-color: red;
-	text-align: right;
-}
+
 #navegacion{
 	height: 100%;
 	background-color: #4d4dff;
