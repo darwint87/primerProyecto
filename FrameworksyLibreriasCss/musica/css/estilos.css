@@ -1,0 +1,57 @@
+
+body {
+  background: black;
+}
+header{
+
+	background-color: #668cff;
+	border-radius: 5px 5px;
+}
+nav{
+	width: 100%;
+	border-radius: 5px 5px 5px 5px;
+
+}
+footer{
+
+	background-color: #668cff;
+	border-radius: 5px 5px;
+}
+#redes {
+right: 5px;
+}
+#contRed{
+	text-align: right;
+}
+#prueba {
+	align-items: right;
+	background-color: red;
+	text-align: right;
+}
+#navegacion{
+	height: 100%;
+	background-color: #4d4dff;
+	border-radius: 5px 5px 5px 5px;
+}
+#navegacion nav{
+	text-align: center;
+	color: yelow;
+}
+#navegacion a{
+	text-align: center;
+	color: white;
+}
+#navegacion a:hover {
+	height: 100%;
+	border-radius: 5px 5px 5px 5px;
+	background-color: red;
+	color: white;
+}
+#contenido{
+	background-color: white;
+}
+
+.gi-2x{font-size: 2em;}
+.gi-3x{font-size: 3em;}
+.gi-4x{font-size: 4em;}
+.gi-5x{font-size: 5em;}
