@@ -1,0 +1,125 @@
+body{
+
+	background: url("../img/fondo.png");
+	background-position: center;
+	vertical-align: middle;
+ 	background-attachment: fixed;
+	background-size: cover;
+}
+
+#contenedor{
+
+	height: 100%;
+}
+#contenido{
+	height: 100%;
+	background-color: #90caf9;
+	opacity: 0.97;
+}
+#cabecera{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#columna1{
+
+	border-style:none ;
+	text-align: right;
+	border-right: #dcedc8 1px solid;
+}
+#columna1  a{
+	color: white;
+}
+#columna2{
+	border-style: solid 1px;
+}
+#cuerpo{
+	margin-left: 5px;
+	margin-right: 5px;
+	border-top: #dcedc8 1px solid;
+}
+#r2c1{
+	border-radius: 5px 5px 5px 5px;
+	background-color: #2196f3;
+	margin-top: 10px;
+	color: #ffff00;
+}
+.navbar{
+	text-align: center;
+	border-bottom: #dcedc8 1px solid;
+	width: 100%;
+	color: #ffff00;
+}
+.navbar li{
+	border-top: #dcedc8 1px solid;
+}
+.navbar a:hover {
+	height: 100%;
+	color: #000000;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #78909c;
+
+}
+.navbar a{
+	color: #ffff00;
+}
+#r2c2{
+	background-color: #26a69a;
+	text-align: center;
+
+}
+#favoritos img{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	width: 100%;
+
+}
+#historial ul{
+	text-align: left;
+	color: #ffff00;
+}
+#historial a{
+	text-align: left;
+	color: #ffff00;
+}
+#historial a:hover {
+	height: 100%;
+	color: #000000;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #78909c;
+
+}
+#contenido_b{
+	width: 100%;
+	margin-top: 10px;
+}
+#contenido_b article, section{
+	margin-left: 10px;
+	border-radius: 5px 5px 5px 5px;
+
+
+}
+#contenido_b h1,p{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+#contenido_b h5{
+	margin-left: 10px;
+	margin-right: 5px;
+	font-style: italic;
+	color: #ffff00;
+}
+#contenido_b img{
+	width: 100%;
+	text-align: center;
+}
+.recetas{
+	border-radius: 5px 5px 5px 5px;
+	margin-left: 10px;
+	background-color: #26a69a;
+}
+.comentarios{
+	border-style:none ;
+	border-radius: 0px 5px 5px 0px;
+	background-color: white;
+}
